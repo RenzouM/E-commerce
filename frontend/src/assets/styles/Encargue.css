@@ -1,0 +1,21 @@
+.encargue {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding: 3px;
+}
+
+.encarguee {
+  color: rgb(138, 138, 138);
+  letter-spacing: 4px;
+}
+
+.encargueee {
+  color: rgb(37, 231, 53);
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.clickk {
+  filter: invert(81%) sepia(0%) saturate(0%) hue-rotate(170deg) brightness(90%) contrast(91%);
+}

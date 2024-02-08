@@ -1,0 +1,71 @@
+.slick-next {
+  background-color: rgb(115, 119, 123);
+  color-scheme: white;
+  width: 47px;
+  height: 110px;
+  opacity: 40%;
+  border-radius: 1px;
+  z-index: 99999;
+  position: absolute;
+  right: -7px;
+}
+.slick-next:hover {
+  background-color: rgb(115, 119, 123);
+  color-scheme: white;
+  width: 47px;
+  height: 110px;
+  opacity: 40%;
+  border-radius: 1px;
+  z-index: 99999;
+  position: absolute;
+  right: -7px;
+}
+.slick-next:focus {
+  background-color: rgb(115, 119, 123);
+  color-scheme: white;
+  width: 47px;
+  height: 110px;
+  opacity: 40%;
+  border-radius: 1px;
+  z-index: 99999;
+  position: absolute;
+  right: -7px;
+}
+
+.slick-prev {
+  background-color: rgb(115, 119, 123);
+  color-scheme: white;
+  width: 47px;
+  height: 110px;
+  opacity: 40%;
+  border-radius: 1px;
+  z-index: 99999;
+  position: absolute;
+  left: -7px;
+}
+.slick-prev:hover {
+  background-color: rgb(115, 119, 123);
+  color-scheme: white;
+  width: 47px;
+  height: 110px;
+  opacity: 40%;
+  border-radius: 1px;
+  z-index: 99999;
+  position: absolute;
+  left: -7px;
+}
+.slick-prev:focus {
+  background-color: rgb(115, 119, 123);
+  color-scheme: white;
+  width: 47px;
+  height: 110px;
+  opacity: 40%;
+  border-radius: 1px;
+  z-index: 99999;
+  position: absolute;
+  left: -7px;
+}
+
+.slick-list {
+  height: 556px;
+}

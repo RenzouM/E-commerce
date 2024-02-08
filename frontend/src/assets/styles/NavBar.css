@@ -1,0 +1,127 @@
+.btn {
+  border-radius: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.navbar-nav {
+  border-color: orange;
+  border-style: solid;
+  border-radius: 5px;
+  border-inline: 5px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 3;
+  width: 335px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.modal-line {
+  background-color: white;
+  margin-left: 8px;
+  padding: 7px;
+  text-decoration: none;
+  color: black;
+  width: 85%;
+  letter-spacing: 2px;
+  margin-top: 4px;
+  text-align: left;
+  font-size: 22px;
+  border: 0;
+}
+
+.modal-line i {
+  margin-right: 15px;
+  width: 20px;
+}
+
+.modal-line img {
+  margin-right: 150px;
+  width: 20px;
+}
+
+.modal-line li {
+  margin-bottom: 10px;
+  list-style: none;
+  width: 280px;
+}
+
+.modal-line ul {
+  margin-bottom: 10px;
+  list-style: none;
+  width: 215px;
+}
+.dropdown-menu li:hover {
+  color: white;
+}
+
+.modal-line:hover {
+  color: orange;
+}
+
+/* Estilo menu canvas */
+
+.form-control:hover {
+  border-color: grey;
+  outline: none;
+  border: 1;
+  outline: none;
+}
+
+.searchbar:hover h6,
+.searchbar:hover p {
+  color: rgb(255, 189, 46);
+}
+
+.buttonMobileMenuDrop {
+  border: 0;
+  background-color: white;
+  padding-left: 0;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin-left: 14px;
+}
+
+.buttonMobileMenuDropDrop {
+  margin: 10px;
+  font-size: 20px;
+  border: 0;
+  background-color: white;
+  display: grid;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+.buttonMobileMenuDropDrop:hover {
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.shopping-Cart {
+  filter: invert(59%) sepia(81%) saturate(668%) hue-rotate(358deg) brightness(98%) contrast(108%);
+}
+
+.bars-Icon {
+  filter: invert(61%) sepia(3%) saturate(7%) hue-rotate(42deg) brightness(94%) contrast(84%);
+}
+
+#placeholder {
+  padding-left: 40px;
+}

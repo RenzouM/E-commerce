@@ -1,0 +1,5 @@
+.orange-section {
+  border-radius: 5px;
+  background: linear-gradient(to right, orange, rgb(255, 208, 78));
+  border-color: whitesmoke;
+}

@@ -1,0 +1,69 @@
+ul {
+  list-style: none;
+}
+
+.list-group-item {
+  width: 200px;
+  border: 1px;
+  border-style: solid;
+  margin-top: 1px;
+  border-color: #dddddd;
+}
+
+.list-group-item:hover {
+  color: orange;
+  border-color: orange;
+  border-style: solid;
+}
+
+.list-group-item:active {
+  color: black;
+  border-color: orange;
+}
+
+.dropdown-menu li {
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover .buttonDesktopMenuDropDrop {
+  color: white;
+}
+
+.buttonDesktopMenuDropDrop {
+  border: 0;
+  background-color: transparent;
+  margin: 5px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.modal-line-desktop {
+  text-align: start;
+  margin: 0;
+  width: 90%;
+  border: 0;
+  background-color: transparent;
+  padding: 4px;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+}
+
+.bar-descount-icon {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(203deg) brightness(102%) contrast(105%);
+}
+
+.bar-descount-iconn {
+  filter: invert(60%) sepia(4%) saturate(168%) hue-rotate(39deg) brightness(98%) contrast(90%);
+}
+
+.colorback {
+  filter: invert(81%) sepia(0%) saturate(0%) hue-rotate(170deg) brightness(90%) contrast(91%);
+}

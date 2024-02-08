@@ -1,0 +1,94 @@
+.imagen {
+  width: 230px;
+}
+
+.logotipo {
+  width: 100px;
+  display: flex;
+  position: absolute;
+}
+
+.imagennn {
+  width: 10%;
+}
+
+.encargalo {
+  margin-top: 0;
+  display: flex;
+  align-items: normal;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+}
+.card,
+.card-body {
+  width: auto;
+  height: auto;
+  max-width: 270px;
+  min-width: 132px;
+}
+
+.card-header {
+  width: auto;
+  max-width: 270px;
+  min-width: 150px;
+  height: 77px;
+}
+
+.card-carousel {
+  width: 95%;
+  border: 1px;
+  border-color: rgb(206, 206, 206);
+  border-style: solid;
+  border-radius: 10px;
+}
+.card-body-carousel {
+  width: 100%;
+  height: auto;
+  min-width: 150px;
+  background-color: transparent;
+  padding: 0px 0px 2px 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.card-header-carousel {
+  padding: 0;
+  margin: 0;
+  height: 77px;
+  background-color: rgb(247, 247, 247);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: rgb(206, 206, 206);
+  border-style: solid;
+}
+
+.agregaCart:active p {
+  color: white;
+}
+
+.bolt-Icon {
+  filter: invert(93%) sepia(81%) saturate(7497%) hue-rotate(347deg) brightness(100%) contrast(110%);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.bolt-Iconn {
+  filter: invert(93%) sepia(81%) saturate(7497%) hue-rotate(347deg) brightness(100%) contrast(110%);
+  position: absolute;
+  top: 25px;
+  right: 11px;
+}
+
+.whatsappIcon {
+  filter: invert(60%) sepia(72%) saturate(1906%) hue-rotate(84deg) brightness(109%) contrast(94%);
+}
+
+.trash-icon {
+  filter: invert(53%) sepia(7%) saturate(0%) hue-rotate(328deg) brightness(98%) contrast(95%);
+}

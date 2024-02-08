@@ -1,0 +1,88 @@
+.cat {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  object-fit: cover;
+  height: 100%;
+  z-index: -2;
+}
+
+.dog {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  object-fit: cover;
+  height: 100%;
+  z-index: -1;
+}
+
+.left-bowl {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  transform: scaleX(-1);
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: -1;
+}
+
+.right-bowl {
+  position: relative;
+  width: 100%;
+  right: 0px;
+  max-width: 250px;
+  margin-left: auto;
+  height: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: -1;
+}
+
+.link-perros {
+  position: absolute;
+  left: calc(100% - 85px);
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.linkk-dog {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  align-items: center;
+  width: 50px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.link-gatos {
+  position: absolute;
+  left: 20px;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+.linkk-cat {
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  align-items: center;
+  width: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.linkk-cat:hover,
+.linkk-dog:hover {
+  color: orange;
+}
+
+.linkk-cat:active,
+.linkk-dog:active {
+  color: grey;
+}

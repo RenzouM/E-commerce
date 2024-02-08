@@ -1,0 +1,71 @@
+.leftimg {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 445px;
+  object-fit: cover;
+  z-index: -1;
+  height: auto;
+}
+
+.rightimg {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  object-fit: cover;
+  max-width: 395px;
+  z-index: -1;
+  height: auto;
+}
+
+.carrousell-container {
+  min-height: 81vh;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/*antes era 750 el maxwidh de abajo */
+@media (max-width: 580px) {
+  .carrousell-container {
+    min-height: 58vh;
+  }
+}
+
+.slogan {
+  font-size: clamp(13px, 8vw, 45px);
+  background: linear-gradient(to right, orange, rgb(255, 208, 78));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fade 0.75s ease-in 0s;
+}
+.slogan-2 {
+  font-size: clamp(8px, 4vw, 20px);
+  background: linear-gradient(to right, orange, rgb(255, 208, 78));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  z-index: "-1";
+  animation: fade 0.5s ease-in 0s;
+}
+
+.slogan-3 {
+  color: #aaaaaa;
+  margin-top: -10px;
+  background: linear-gradient(to right, #aaaaaa, rgb(160, 160, 160));
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: fade 1s ease-in 0s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
